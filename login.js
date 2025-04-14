@@ -14,10 +14,10 @@ function logar(){
 }
 
 function codigo(){
-    let idade = document.getElementById("codigo").value
+    let codigo = document.getElementById("codigo").value
     let mensagem2 = document.getElementById("mensagem2")
 
-    if(idade >= 18){
+    if(codigo = 3){
         mensagem2.innerHTML = "Está correto! Bem vindo"
     } else{
         mensagem2.innerHTML = "Está incorreto. Como chegou até aqui?"
