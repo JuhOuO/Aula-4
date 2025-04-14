@@ -4,7 +4,7 @@ function logar(){
     let senha = document.getElementById('senha').value
     let mensagem = document.getElementById('mensagem')
 
-    if(nome === 'Veríssimo' && senha === 'olhosabertos'){
+    if(nome === 'Veríssimo' && senha === 'olhosabertos' && email === 'bigodinhosafado@gmail.com'){
         mensagem.innerHTML = "Acesso permitido, bem vindo"
         window.location.href = "protegida.html"
     }else{
