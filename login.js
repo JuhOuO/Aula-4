@@ -13,14 +13,14 @@ function logar(){
 
 }
 
-function votar(){
-    let idade = document.getElementById("idade").value
+function codigo(){
+    let idade = document.getElementById("codigo").value
     let mensagem2 = document.getElementById("mensagem2")
 
     if(idade >= 18){
-        mensagem2.innerHTML = "Você pode votar! Que bom, ou não."
+        mensagem2.innerHTML = "Está correto! Bem vindo"
     } else{
-        mensagem2.innerHTML = "Você não pode votar, tá novinho ainda"
+        mensagem2.innerHTML = "Está incorreto. Como chegou até aqui?"
     }
 }
 
